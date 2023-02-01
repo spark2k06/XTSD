@@ -7,7 +7,7 @@ Pin 19 = NC           XOR = 0   AC1 = 0
   3  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   4  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   5  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx ---- ----
-  6  ---- ---- ---- ---- ---- ---- -x-- -x-- -x-- x--x x---
+  6  ---- ---- ---- ---- ---- ---- -x-x -x-- -x-- x--x x---
   7  ---- ---- ---- xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
 Pin 18 = IDECS        XOR = 0   AC1 = 1

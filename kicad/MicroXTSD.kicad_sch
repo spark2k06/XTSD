@@ -5636,24 +5636,6 @@
     (pin "2" (uuid 135e432e-6590-48ad-8449-71cbe6aec845))
   )
 
-  (symbol (lib_id "power:VCC") (at 31.75 161.29 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 02567d70-58ef-4d85-b16e-7663601b34ce)
-    (property "Reference" "#PWR0106" (id 0) (at 35.56 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (id 1) (at 29.21 161.29 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 31.75 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 31.75 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a5889e3-b698-4059-a05e-fc2dad945e24))
-  )
-
   (symbol (lib_id "Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue") (at 90.805 252.095 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0b39d652-0914-4a3d-a708-cb5a2d416999)
@@ -5703,6 +5685,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 29c3c3fa-2331-4bbc-b4e6-cf876b28e474))
+  )
+
+  (symbol (lib_id "power:GND") (at 31.75 161.29 270) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 5f28dc32-7ee6-42e1-80b3-d8428e7a8471)
+    (property "Reference" "#PWR?" (id 0) (at 25.4 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 28.4988 161.417 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 31.75 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 31.75 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7b819bd0-f6dc-4d50-8cf7-ee0175381ddb))
   )
 
   (symbol (lib_id "power:VCC") (at 351.155 77.47 270) (unit 1)
@@ -6142,9 +6142,6 @@
     (path "/0b39d652-0914-4a3d-a708-cb5a2d416999"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
-    (path "/02567d70-58ef-4d85-b16e-7663601b34ce"
-      (reference "#PWR0106") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/d58aa45d-7be5-4bd1-8ddc-c8ce52c2e8c6"
       (reference "#PWR0107") (unit 1) (value "VCC") (footprint "")
     )
@@ -6156,6 +6153,9 @@
     )
     (path "/d5541163-df29-4633-9aa5-0a50b944e0e0"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5f28dc32-7ee6-42e1-80b3-d8428e7a8471"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005dd75d44"
       (reference "BUS1") (unit 1) (value "Bus_ISA_8bit") (footprint "Custom:ISA-8BIT-XT-IDE")
